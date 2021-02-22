@@ -73,75 +73,24 @@
     max-width: 120px;
 }
 
-.metismenu>li>a {
-    padding-left: 32px!important;
+.sidemenu p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
-.metismenu li a {
-    position: relative;
-    display: block;
-    color: #8d97ad;
-    font-size: 15px;
-    text-transform: capitalize;
-    padding: 15px 15px;
-    letter-spacing: 0;
-    font-weight: 400;
-}
-
-.metismenu li a i {
-    color: #6a56a5;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.metismenu li a:after {
-    position: absolute;
-    content: '\f107';
-    font-family: fontawesome;
-    right: 15px;
-    top: 12px;
-    color: #8d97ad;
-    font-size: 20px;
-}
-
-.metismenu li.active>a:after {
-    content: '\f106';
-}
-
-.metismenu li a:only-child:after {
-    content: '';
-}
-
-.metismenu li a span {
-    margin-left: 10px;
-}
-
-.metismenu li:hover>a {
-    color: #fff;
-}
-
-.metismenu li li a {
-    padding: 8px 20px;
-}
-
-.metismenu li ul {
-    padding-left: 37px;
-}
-
-.metismenu>li:hover>a {
-    color: #fff;
-}
-
-.metismenu li:hover>a {
-    color: #fff;
-}
-
-.metismenu li:hover>a i {
-    color: #fff;
-}
-
-.metismenu li li a:after {
-    top: 6px;
+.sidemenu li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.6);
 }
 
 
