@@ -6,6 +6,7 @@
     }
 }
 
+
 /*Medium Desktop Device*/
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
@@ -33,7 +34,6 @@
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-
     #coin_distribution-wrapper {
         margin-top: -68px;
     }
@@ -93,12 +93,10 @@
     .team-search input {
         width: 100%;
     }
-
     /* error page */
     .error-content {
         margin-top: 100px;
     }
-
     /* dashboard three */
     #salesanalytic {
         height: 500px;
@@ -111,14 +109,11 @@
     }
 }
 
+
 /* Normal desktop :992px. */
 
 @media (min-width: 1200px) and (max-width: 1364px) {
-
     /* sidebar */
-    
-    
-    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -161,7 +156,6 @@
         margin-top: 30px;
     }
     /* sidebar */
-    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -237,12 +231,10 @@
     .member-box .media-body p {
         font-size: 16px;
     }
-
     /* dahsboard three */
     #seolinechart8 {
         margin-top: 60px;
     }
-
     /* horizontal header dashboard */
     .horizontal-menu ul li a {
         padding: 10px 8px;
@@ -253,12 +245,12 @@
     }
 }
 
+
 /* Normal desktop :991px. */
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* dashboard one */
     /* sidebar */
-    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -343,7 +335,6 @@
     .icon-container {
         flex-basis: calc(100% * (1/3));
     }
-
     /* maps */
     #mapamchart1,
     #mapamchart2,
@@ -356,7 +347,6 @@
     #google_map {
         height: 400px;
     }
-
     /* login page */
     .ptb--100 {
         padding: 90px 0;
@@ -367,6 +357,7 @@
     }
 }
 
+
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
@@ -374,6 +365,7 @@
         padding: 90px 0;
     }
 }
+
 
 /* Large Mobile :480px. */
 
@@ -389,7 +381,6 @@
         margin-bottom: 40px;
     }
     /* sidebar */
-    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -465,7 +456,6 @@
     .icon-container {
         flex-basis: calc(100% * (1/2));
     }
-
     /* maps */
     #mapamchart1,
     #mapamchart2,
@@ -478,19 +468,18 @@
     #google_map {
         height: 400px;
     }
-
     /* horizontal header dashboard */
     .header-bottom .search-box input {
         max-width: 100%;
     }
 }
 
+
 /* small mobile :320px. */
 
 @media (min-width: 240px) and (max-width: 479px) {
     /* dashboard one */
     /* sidebar */
-    
     .sbar_collapsed .sidebar-menu {
         left: -100%;
     }
@@ -735,7 +724,6 @@
     .icon-container {
         flex-basis: 100%;
     }
-
     /* maps */
     #mapamchart1,
     #mapamchart2,
@@ -748,7 +736,6 @@
     #google_map {
         height: 300px;
     }
-
     /* invoice */
     .invoice-date {
         margin-top: 20px;
@@ -763,7 +750,6 @@
     .rmber-area {
         font-size: 12px;
     }
-
     /* dashboard thee */
     .seo-fact #seolinechart3,
     .seo-fact #seolinechart4 {
