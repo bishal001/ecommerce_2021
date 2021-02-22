@@ -116,21 +116,9 @@
 @media (min-width: 1200px) and (max-width: 1364px) {
 
     /* sidebar */
-    .sidebar-menu {
-        width: 365px;
-    }
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 363px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
+    
+    
+    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -173,21 +161,7 @@
         margin-top: 30px;
     }
     /* sidebar */
-    .sidebar-menu {
-        width: 306px;
-    }
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 304px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
+    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -284,21 +258,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     /* dashboard one */
     /* sidebar */
-    .sidebar-menu {
-        width: 306px;
-    }
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 304px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
+    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -429,21 +389,7 @@
         margin-bottom: 40px;
     }
     /* sidebar */
-    .sidebar-menu {
-        width: 365px;
-    }
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 363px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
+    
     .sbar_collapsed .sidebar-menu {
         left: -90%;
     }
@@ -544,21 +490,7 @@
 @media (min-width: 240px) and (max-width: 479px) {
     /* dashboard one */
     /* sidebar */
-    .sidebar-menu {
-        width: calc(100% - 48px);
-    }
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        right: 0;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
+    
     .sbar_collapsed .sidebar-menu {
         left: -100%;
     }

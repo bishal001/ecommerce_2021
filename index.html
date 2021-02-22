@@ -8,68 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
     <!-- others css -->
     <link rel="stylesheet" href="assets/css/typography.css">
     <link rel="stylesheet" href="assets/css/default-css.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
     <style>
-        .slick-slide {
-            display: none;
-            float: left;
-            position: relative;
-            height: 100%;
-            min-height: 1px;
-            width: 100%;
-        }
-        
-        .slick>.slick-prev {
-            left: 10px;
-            z-index: 1;
-        }
-        
-        .slick>.slick-next {
-            right: 10px;
-            z-index: 1;
-        }
-        
-        .slick-prev:before {
-            content: "<";
-            font-family: FontAwesome;
-            font-size: 50px;
-            color: #0a5185 !important;
-            z-index: 100;
-        }
-        
-        .slick-next:before {
-            content: ">";
-            font-family: FontAwesome;
-            font-size: 50px;
-            color: #0a5185 !important;
-            z-index: 100;
-        }
-        
-        .slick-dots {
-            position: absolute;
-            bottom: 20px;
-            display: block;
-            width: 100%;
-            padding: 10;
-            margin: 0;
-            list-style: none;
-            text-align: center;
-        }
-        
-        .slick-dots li button:before {
-            font-size: 50px;
-            line-height: 20px;
-        }
-        
-        .slick-dots li.slick-active button:before {
-            color: blue;
-        }
+
     </style>
 </head>
 
@@ -185,13 +134,47 @@
 
             <div class="main-content-inner">
 
+                <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow uk-slider="autoplay: true, ">
 
-                <div id="" class="slick">
+                    <ul class="uk-slider-items uk-grid">
+                        <li class="uk-width-auto">
+                            <div class="uk-panel">
+                                <img src="http://placehold.it/1280x500" alt="">
 
-                    <div><img src="http://placehold.it/1000x500" alt="Owl Image"></div>
-                    <div><img src="http://placehold.it/1000x500" alt="Owl Image"></div>
-                    <div><img src="http://placehold.it/1000x500" alt="Owl Image"></div>
-                    <div><img src="http://placehold.it/1000x500" alt="Owl Image"></div>
+                            </div>
+                        </li>
+                        <li class="uk-width-auto">
+                            <div class="uk-panel">
+                                <img src="http://placehold.it/1280x500" alt="">
+
+                            </div>
+                        </li>
+                        <li class="uk-width-auto">
+                            <div class="uk-panel">
+                                <img src="http://placehold.it/1280x500" alt="">
+
+                            </div>
+                        </li>
+                        <li class="uk-width-auto">
+                            <div class="uk-panel">
+                                <img src="http://placehold.it/1280x500" alt="">
+
+                            </div>
+                        </li>
+                        <li class="uk-width-auto">
+                            <div class="uk-panel">
+                                <img src="http://placehold.it/1280x500" alt="">
+
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="uk-position-bottom-center uk-position-small">
+                        <ul class="uk-slider-nav uk-dotnav"></ul>
+                    </div>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
                 </div>
 
             </div>
@@ -212,23 +195,14 @@
     <!-- bootstrap 4 js -->
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/jquery.slimscroll.min.js"></script>
     <!-- others plugins -->
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
     <script>
-        $(document).ready(function() {
-
-
-            $('.slick').slick({
-                slidesToShow: 1,
-                fade: true,
-                infinite: true,
-                dots: true,
-            });
-
-        });
     </script>
 </body>
 
