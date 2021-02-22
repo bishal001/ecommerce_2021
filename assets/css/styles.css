@@ -9,6 +9,14 @@
 
 -----------------------------------------------------------------------------------*/
 
+* {
+    font-family: Montserrat !important;
+}
+
+body {
+    color: white;
+}
+
 
 /*------------------------- 1. Core Css -------------------*/
 
@@ -392,7 +400,6 @@ label {
 }
 
 .item_lists a {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -402,7 +409,6 @@ label {
 }
 
 .item_lists h3 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -411,7 +417,6 @@ label {
 }
 
 .item_lists .card .product_name {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -419,8 +424,11 @@ label {
     text-align: center;
 }
 
+.item_lists .card {
+    background-color: #F4F7F9;
+}
+
 .item_lists .card .price {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
