@@ -39,7 +39,6 @@ body {
 
 .main-content {
     width: 100%;
-    background: #F3F8FB;
 }
 
 .main-content-inner {
@@ -449,3 +448,19 @@ label {
 
 
 /* ---------------- Ended Item Lists---------------- */
+
+
+/* ---------------- Started Footer ------------------*/
+
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+
+/* ---------------- Ended Footer ------------------*/
