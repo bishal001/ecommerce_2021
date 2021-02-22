@@ -322,7 +322,10 @@ label {
 }
 
 
-/* ------------------- End Navigation Menu Items  */
+/* ------------------- End Navigation Menu Items-------------------  */
+
+
+/* -------------------- Started Ulkit slider ------------------------  */
 
 .uk-dotnav>*>* {
     border: 1px solid;
@@ -339,3 +342,102 @@ label {
 .uk-slidenav-position .uk-slidenav {
     display: block;
 }
+
+
+/* -------------------- Ended Ulkit slider ------------------------  */
+
+
+/* ---------------- Started Featured Products---------------- */
+
+.featured_products {
+    margin-top: 40px;
+}
+
+.featured_products a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.featured_products h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.featured_products .card .product_name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+
+/* ---------------- Ended Featured Products---------------- */
+
+
+/* ---------------- Started Item Lists---------------- */
+
+.item_lists {
+    margin-top: 40px;
+}
+
+.item_lists a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.item_lists h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.item_lists .card .product_name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.item_lists .card .price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.item_lists .see_more {
+    background: #FFA510;
+    border-radius: 100px;
+    width: 200px;
+    height: 48px;
+    left: 347.5px;
+    top: 1159.98px;
+}
+
+
+/* ---------------- Ended Item Lists---------------- */
