@@ -4,19 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>srtdash - SEO Dashboard</title>
+    <title>Ecommerce</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- others css -->
-    <link rel="stylesheet" href="assets/css/typography.css">
-    <link rel="stylesheet" href="assets/css/default-css.css">
+
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
-    />
     <style>
         .dropdown:hover>.dropdown-menu {
             display: block;
@@ -30,150 +25,165 @@
 </head>
 
 <body>
+    <!-- Navigation Menu Started -->
+    <div class="row no-gutters">
+        <a class="navbar-brand logo" href="#">ネオン <span style="color:#ffa510">ギルド</span></a>
+        <nav class="navbar navbar-expand ml-auto">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Category 1</a>
+                        <a class="dropdown-item" href="#">Category 2</a>
+                        <a class="dropdown-item" href="#">Category 3</a>
+                    </div>
+                </li>
 
-    <!-- preloader area start -->
-    <div id="preloader">
-        <div class="loader"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
     </div>
-    <!-- preloader area end -->
 
-    <!-- header area start -->
-    <div class="header-area">
-        <div class="row align-items-center">
-            <!-- nav and search button -->
-            <div class="clearfix">
-                <div class="nav-btn pull-left">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-            <div class="logo">
-                <p class="logo">ネオン <span style="color:#ffa510">ギルド</span></p>
-            </div>
+    <!-- Navigation Menu Ended -->
 
-            <nav class="navbar navbar-expand ml-auto">
+    <!-- Main Content Started -->
+    <div class="row pt-5">
+        <!-- Side Menu Started -->
+        <div class="col-xl-2 col-lg-2 col-12 order-2 order-lg-1">
+            <ul class="sidemenu" id="menu">
 
-                <!-- Links -->
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Category 1</a>
-                            <a class="dropdown-item" href="#">Category 2</a>
-                            <a class="dropdown-item" href="#">Category 3</a>
+                <p>Category</p>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+                <p>User Guide</p>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+                <p>Link</p>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+
+            </ul>
+        </div>
+        <!-- Side Menu Ended -->
+
+        <!-- Home Content Started -->
+        <div class="col-xl-10 col-lg-10 col-12 order-1 order-lg-2">
+            <!-- Hero slider section started -->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow uk-slider=" ">
+
+                <ul class="uk-slider-items uk-grid">
+                    <li class="uk-width-auto">
+                        <div class="uk-panel">
+                            <img src="http://placehold.it/1280x500" alt="">
+
                         </div>
                     </li>
+                    <li class="uk-width-auto">
+                        <div class="uk-panel">
+                            <img src="http://placehold.it/1280x500" alt="">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="uk-width-auto">
+                        <div class="uk-panel">
+                            <img src="http://placehold.it/1280x500" alt="">
+
+                        </div>
+                    </li>
+                    <li class="uk-width-auto">
+                        <div class="uk-panel">
+                            <img src="http://placehold.it/1280x500" alt="">
+
+                        </div>
+                    </li>
+                    <li class="uk-width-auto">
+                        <div class="uk-panel">
+                            <img src="http://placehold.it/1280x500" alt="">
+
+                        </div>
                     </li>
                 </ul>
 
-            </nav>
-        </div>
-    </div>
-    <!-- header area end -->
-
-
-    <!-- page container area start -->
-    <div class="page-container">
-
-        <!-- main content area start -->
-        <div class="main-content">
-            <!-- sidebar menu area start -->
-            <div class="sidebar-menu">
-                <div class="main-menu">
-                    <div class="menu-inner">
-                        <nav>
-                            <ul class="sidemenu" id="menu">
-
-                                <p>Category</p>
-                                <li><a href="#">Category 1</a></li>
-                                <li><a href="#">Category 2</a></li>
-                                <li><a href="#">Category 3</a></li>
-                                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
-                                <p>User Guide</p>
-                                <li><a href="#">Link 1</a></li>
-                                <li><a href="#">Link 2</a></li>
-                                <li><a href="#">Link 3</a></li>
-                                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
-                                <p>Link</p>
-                                <li><a href="#">Link 1</a></li>
-                                <li><a href="#">Link 2</a></li>
-                                <li><a href="#">Link 3</a></li>
-
-                            </ul>
-                        </nav>
-                    </div>
+                <div class="uk-position-bottom-center uk-position-small">
+                    <ul class="uk-slider-nav uk-dotnav"></ul>
                 </div>
+                <a class="uk-position-center-left uk-position-small uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
             </div>
-            <!-- sidebar menu area end -->
+            <!-- Hero slider section ended -->
 
-            <div class="main-content-inner">
-                <!-- Hero slider section started -->
-                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow uk-slider=" ">
 
-                    <ul class="uk-slider-items uk-grid">
-                        <li class="uk-width-auto">
-                            <div class="uk-panel">
-                                <img src="http://placehold.it/1280x500" alt="">
-
+            <!-- Featured Products section started -->
+            <section class="featured_products">
+                <h3 class="d-inline">Featured Products</h3>
+                <a href="#" class="float-right d-inline">Seel All</a>
+                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+                <div class="row shadow-lg bg-white p-3">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <img src="assets/images/product_1.svg" alt="">
+                                <p class="product_name">Product 1</p>
                             </div>
-                        </li>
-                        <li class="uk-width-auto">
-                            <div class="uk-panel">
-                                <img src="http://placehold.it/1280x500" alt="">
-
-                            </div>
-                        </li>
-                        <li class="uk-width-auto">
-                            <div class="uk-panel">
-                                <img src="http://placehold.it/1280x500" alt="">
-
-                            </div>
-                        </li>
-                        <li class="uk-width-auto">
-                            <div class="uk-panel">
-                                <img src="http://placehold.it/1280x500" alt="">
-
-                            </div>
-                        </li>
-                        <li class="uk-width-auto">
-                            <div class="uk-panel">
-                                <img src="http://placehold.it/1280x500" alt="">
-
-                            </div>
-                        </li>
-                    </ul>
-
-                    <div class="uk-position-bottom-center uk-position-small">
-                        <ul class="uk-slider-nav uk-dotnav"></ul>
+                        </div>
                     </div>
-                    <a class="uk-position-center-left uk-position-small uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right uk-position-small uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <img src="assets/images/product_2.svg" alt="">
+                                <p class="product_name">Product 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <img src="assets/images/product_3.svg" alt="">
+                                <p class="product_name">Product 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <img src="assets/images/product_4.svg" alt="">
+                                <p class="product_name">Product 4</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Hero slider section ended -->
+            </section>
+            <!-- Featured Products section ended -->
 
-
-                <!-- Featured Products section started -->
-                <section class="featured_products">
-                    <h3 class="d-inline">Featured Products</h3>
-                    <a href="#" class="float-right d-inline">Seel All</a>
-                    <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
-                    <div class="row shadow-lg bg-white p-3">
+            <!-- Item Lists section started -->
+            <section class="item_lists">
+                <h3 class="d-inline">Item Lists</h3>
+                <a href="#" class="float-right d-inline">Seel All</a>
+                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+                <div class="shadow-lg bg-white p-3">
+                    <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
                             <div class="card h-100">
                                 <div class="card-body text-center">
                                     <img src="assets/images/product_1.svg" alt="">
                                     <p class="product_name">Product 1</p>
+                                    <span class="price">¥ 14,300</span>
                                 </div>
                             </div>
                         </div>
@@ -182,6 +192,7 @@
                                 <div class="card-body text-center">
                                     <img src="assets/images/product_2.svg" alt="">
                                     <p class="product_name">Product 2</p>
+                                    <span class="price">¥ 14,300</span>
                                 </div>
                             </div>
                         </div>
@@ -190,6 +201,7 @@
                                 <div class="card-body text-center">
                                     <img src="assets/images/product_3.svg" alt="">
                                     <p class="product_name">Product 3</p>
+                                    <span class="price">¥ 14,300</span>
                                 </div>
                             </div>
                         </div>
@@ -198,153 +210,108 @@
                                 <div class="card-body text-center">
                                     <img src="assets/images/product_4.svg" alt="">
                                     <p class="product_name">Product 4</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_1.svg" alt="">
+                                    <p class="product_name">Product 1</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_2.svg" alt="">
+                                    <p class="product_name">Product 2</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_3.svg" alt="">
+                                    <p class="product_name">Product 3</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_4.svg" alt="">
+                                    <p class="product_name">Product 4</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_1.svg" alt="">
+                                    <p class="product_name">Product 1</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_2.svg" alt="">
+                                    <p class="product_name">Product 2</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_3.svg" alt="">
+                                    <p class="product_name">Product 3</p>
+                                    <span class="price">¥ 14,300</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/product_4.svg" alt="">
+                                    <p class="product_name">Product 4</p>
+                                    <span class="price">¥ 14,300</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- Featured Products section ended -->
-
-                <!-- Item Lists section started -->
-                <section class="item_lists">
-                    <h3 class="d-inline">Item Lists</h3>
-                    <a href="#" class="float-right d-inline">Seel All</a>
-                    <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
-                    <div class="shadow-lg bg-white p-3">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_1.svg" alt="">
-                                        <p class="product_name">Product 1</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_2.svg" alt="">
-                                        <p class="product_name">Product 2</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_3.svg" alt="">
-                                        <p class="product_name">Product 3</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_4.svg" alt="">
-                                        <p class="product_name">Product 4</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_1.svg" alt="">
-                                        <p class="product_name">Product 1</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_2.svg" alt="">
-                                        <p class="product_name">Product 2</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_3.svg" alt="">
-                                        <p class="product_name">Product 3</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_4.svg" alt="">
-                                        <p class="product_name">Product 4</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_1.svg" alt="">
-                                        <p class="product_name">Product 1</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_2.svg" alt="">
-                                        <p class="product_name">Product 2</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_3.svg" alt="">
-                                        <p class="product_name">Product 3</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
-                                <div class="card h-100">
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/product_4.svg" alt="">
-                                        <p class="product_name">Product 4</p>
-                                        <span class="price">¥ 14,300</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <button class="btn mx-auto see_more text-white mt-4">Show More ...</button>
-                        </div>
+                    <div class="row">
+                        <button class="btn mx-auto see_more text-white mt-4">Show More ...</button>
                     </div>
-                </section>
-                <!-- Item Lists section ended -->
-            </div>
+                </div>
+            </section>
+            <!-- Item Lists section ended -->
         </div>
-        <!-- main content area end -->
-        <!-- footer area start-->
-        <footer class="text-center">
-            <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
-            <div class="footer-area">
-                <p class="logo">ネオン <span style="color:#ffa510">ギルド</span></p>
-                <p>東京都千代田区外神田2-3-6 成田ビル3F 8056960376
-                </p>
-                <p>COPYRIGHT © ネオン ギルド ALL RIGHTS RESERVED.
-                    <a href="#"></a>
-                </p>
-            </div>
-        </footer>
-        <!-- footer area end-->
+        <!-- Home Content Ended -->
     </div>
-    <!-- page container area end -->
+    <!-- Main Content Ended -->
+
+
+    <!-- footer area start-->
+    <footer class="text-center">
+        <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+        <div class="footer-area">
+            <p class="logo">ネオン <span style="color:#ffa510">ギルド</span></p>
+            <p>東京都千代田区外神田2-3-6 成田ビル3F 8056960376
+            </p>
+            <p>COPYRIGHT © ネオン ギルド ALL RIGHTS RESERVED.
+                <a href="#"></a>
+            </p>
+        </div>
+    </footer>
+    <!-- footer area end-->
 
 
     <!-- jquery latest version -->
@@ -352,15 +319,8 @@
     <!-- bootstrap 4 js -->
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.slimscroll.min.js"></script>
-    <!-- others plugins -->
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-    <script>
-    </script>
 </body>
 
 </html>
