@@ -1,9 +1,5 @@
-* {
-    font-family: Montserrat !important;
-}
-
 body {
-    color: white;
+    font-family: Montserrat !important;
 }
 
 
@@ -52,14 +48,11 @@ body {
 }
 
 .search-box input {
-    width: 350px;
-    border-radius: 33px;
-    border: none;
     height: 40px;
-    padding-left: 20px;
-    padding-right: 40px;
     letter-spacing: 0;
-    background: #f3eeff;
+    background: #F4F7F9;
+    border: 1px solid #E3EEF4;
+    box-sizing: border-box;
 }
 
 .search-box input::-webkit-input-placeholder {
@@ -74,12 +67,20 @@ body {
     color: #b1a7a7;
 }
 
-.search-box form i {
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
     position: absolute;
-    right: 21px;
-    top: 14px;
-    font-size: 14px;
-    color: #b1a7a7;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
 
 

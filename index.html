@@ -7,8 +7,8 @@
     <title>Ecommerce</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- others css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
@@ -59,9 +59,18 @@
     <!-- Main Content Started -->
     <div class="row pt-5">
         <!-- Side Menu Started -->
-        <div class="col-xl-2 col-lg-2 col-12 order-2 order-lg-1">
+        <div class="col-xl-3 col-lg-2 col-12 order-2 order-lg-1">
             <ul class="sidemenu" id="menu">
+                <!-- nav and search button -->
+                <div class="search-box">
+                    <form action="#">
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
 
+                            <input type="text" name="search" class="form-control" placeholder="Search..." required>
+                        </div>
+                    </form>
+                </div>
                 <p>Category</p>
                 <li><a href="#">Category 1</a></li>
                 <li><a href="#">Category 2</a></li>
@@ -82,7 +91,7 @@
         <!-- Side Menu Ended -->
 
         <!-- Home Content Started -->
-        <div class="col-xl-10 col-lg-10 col-12 order-1 order-lg-2">
+        <div class="col-xl-9 col-lg-10 col-12 order-1 order-lg-2">
             <!-- Hero slider section started -->
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow uk-slider=" ">
 
