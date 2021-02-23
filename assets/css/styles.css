@@ -163,7 +163,6 @@ body {
 }
 
 .featured_products a {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -250,6 +249,123 @@ body {
 
 
 /* ---------------- Ended Item Lists---------------- */
+
+
+/* ----------------- Started Product Detail ----------- */
+
+.product_detail .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.product_detail ul {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+}
+
+.product_detail ul li:before {
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+
+.product_detail ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.product_detail .contact_us {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: rgba(6, 136, 255, 0.8);
+}
+
+.product_detail a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.product_detail .card .product_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.product_detail .card {
+    background-color: #F4F7F9;
+}
+
+.product_detail .card .price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.gallery-wrap .img-big-wrap img {
+    height: 450px;
+    width: auto;
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+.item-gallery {
+    width: 100px;
+    height: 100px;
+    left: 108px;
+    top: 0px;
+    margin-left: 30px;
+    background: #F4F7F9;
+    border-radius: 5px;
+}
+
+.item-gallery img {
+    width: 49px;
+    height: 77.4px;
+    left: 133.5px;
+    top: 15.3px;
+}
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    display: inline-block;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+
+/* ----------------- Ended Product Detail ----------- */
 
 
 /* ---------------- Started Footer ------------------*/

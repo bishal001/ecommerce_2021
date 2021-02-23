@@ -1,0 +1,342 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ecommerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- others css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
+    <!-- Import PhotoSwipe Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
+    <style>
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+        
+        .dropdown>.dropdown-toggle:active {
+            /*Without this, clicking will make it sticky*/
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Menu Started -->
+    <div class="row no-gutters">
+        <a class="navbar-brand logo" href="#">ネオン <span style="color:#ffa510">ギルド</span></a>
+        <nav class="navbar navbar-expand ml-auto">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Category 1</a>
+                        <a class="dropdown-item" href="#">Category 2</a>
+                        <a class="dropdown-item" href="#">Category 3</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <!-- Navigation Menu Ended -->
+
+    <!-- Main Content Started -->
+    <div class="row pt-5 ">
+        <!-- Side Menu Started -->
+        <div class="col-xl-3 col-lg-2 col-12 order-2 order-lg-1">
+            <ul class="sidemenu" id="menu" style="list-style-type: none;">
+                <!-- nav and search button -->
+                <div class="search-box">
+                    <form action="#">
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+
+                            <input type="text" name="search" class="form-control" placeholder="Search..." required>
+                        </div>
+                    </form>
+                </div>
+                <p>Category</p>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+                <p>User Guide</p>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+                <p>Link</p>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+
+            </ul>
+        </div>
+        <!-- Side Menu Ended -->
+
+        <!-- Home Content Started -->
+        <div class="col-xl-9 col-lg-10 col-12 product_detail order-1 order-lg-2 pr-5">
+            <p class="title">Item</p>
+            <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+            <div class="row pb-5">
+                <!-- Product Image Started -->
+                <div class="col-xl-7 col-lg-7 col-md-7 col-12 text-center">
+
+
+                    <article id="gallery" class="gallery-wrap gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                        <div class="img-big-wrap">
+
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="assets/images/product_3.svg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+                                    <img src="assets/images/product_3.svg" itemprop="thumbnail" alt="Image description">
+                                </a>
+                            </figure>
+
+                        </div>
+                        <!-- slider-product.// -->
+                        <div class="img-small-wrap">
+                            <div class="item-gallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="assets/images/product_1.svg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+                                        <img src="assets/images/product_1.svg" itemprop="thumbnail" alt="Image description">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item-gallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="assets/images/product_2.svg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+                                        <img src="assets/images/product_2.svg" itemprop="thumbnail" alt="Image description">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item-gallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="assets/images/product_4.svg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+                                        <img src="assets/images/product_4.svg" itemprop="thumbnail" alt="Image description">
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Some spacing  -->
+                    <div class="spacer"></div>
+
+
+                    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                        <!-- Background of PhotoSwipe. 
+           It's a separate element as animating opacity is faster than rgba(). -->
+                        <div class="pswp__bg"></div>
+                        <!-- Slides wrapper with overflow:hidden. -->
+                        <div class="pswp__scroll-wrap">
+                            <!-- Container that holds slides. 
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+                            <div class="pswp__container">
+                                <div class="pswp__item"></div>
+                                <div class="pswp__item"></div>
+                                <div class="pswp__item"></div>
+                            </div>
+                            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                            <div class="pswp__ui pswp__ui--hidden">
+                                <div class="pswp__top-bar">
+                                    <!--  Controls are self-explanatory. Order can be changed. -->
+                                    <div class="pswp__counter"></div>
+                                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                                    <div class="pswp__preloader">
+                                        <div class="pswp__preloader__icn">
+                                            <div class="pswp__preloader__cut">
+                                                <div class="pswp__preloader__donut"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                    <div class="pswp__share-tooltip"></div>
+                                </div>
+                                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+                                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+                                <div class="pswp__caption">
+                                    <div class="pswp__caption__center"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Image Ended -->
+                <!-- Product Details Started -->
+                <div class="col-xl-5 col-lg-5 col-md-5 col-12">
+                    <p class="title">Product Details</p>
+                    <ul>
+                        <li>Product number: 30-02</li>
+                        <li class="pt-3 pb-3">Product name: 25L all-fiber drum</li>
+                        <li>Product specifications <br> / size: Inner diameter approx. 320mm x Height approx. 370mm / Weight: approx. 2.5kg</li>
+                        <li class="pt-3">Applications: For powder</li>
+                    </ul>
+                    <p class="title">Delivery</p>
+                    <ul>
+                        <li>Delivery to Okinawa Prefecture and some remote islands can not.</li>
+                        <li class="pt-3 pb-3">Please contact us in advance as it will take several days to deliver because it is made to order .</li>
+                    </ul>
+                    <p class="title">Contact Us about this product</p>
+                    <a class="contact_us" href="https://thebase.in/inquiry/daikan-official-ec">https://thebase.in/inquiry/daikan-official-ec</a>
+                </div>
+                <!-- Product Details Ended -->
+            </div>
+            <!-- Related Products Started -->
+            <p class="title d-inline">Related Products</p>
+            <a href="#" class="float-right d-inline">Seel All</a>
+            <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product_1.svg" alt="">
+                            <p class="product_name">軽くて丈夫なファイバー ドラム缶！
+                            </p>
+                            <span class="price">¥ 14,300</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product_2.svg" alt="">
+                            <p class="product_name">軽くて丈夫なファイバー ドラム缶！
+                            </p>
+                            <span class="price">¥ 14,300</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product_3.svg" alt="">
+                            <p class="product_name">軽くて丈夫なファイバー ドラム缶！
+                            </p>
+                            <span class="price">¥ 14,300</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pt-2">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product_4.svg" alt="">
+                            <p class="product_name">軽くて丈夫なファイバー ドラム缶！
+                            </p>
+                            <span class="price">¥ 14,300</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Related Products Ended -->
+        </div>
+        <!-- Home Content Ended -->
+
+    </div>
+    <!-- Main Content Ended -->
+
+
+
+
+    <!-- footer area start-->
+    <footer class="text-center mt-4 mb-3">
+        <p style="border: 1px solid rgba(0, 0, 0, 0.1);"></p>
+        <div class="footer-area">
+            <p class="logo">ネオン <span style="color:#ffa510">ギルド</span></p>
+            <p>東京都千代田区外神田2-3-6 成田ビル3F 8056960376
+            </p>
+            <p>COPYRIGHT © ネオン ギルド ALL RIGHTS RESERVED.
+                <a href="#"></a>
+            </p>
+        </div>
+    </footer>
+    <!-- footer area end-->
+
+
+    <!-- jquery latest version -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js"></script>
+    <script>
+        'use strict';
+
+        /* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
+
+        (function($) {
+
+            // Init empty gallery array
+            var container = [];
+
+            // Loop over gallery items and push it to the array
+            $('#gallery').find('figure').each(function() {
+                var $link = $(this).find('a'),
+                    item = {
+                        src: $link.attr('href'),
+                        w: $link.data('width'),
+                        h: $link.data('height'),
+                        title: $link.data('caption')
+                    };
+                container.push(item);
+            });
+
+            // Define click event on gallery item
+            $('a').click(function(event) {
+
+                // Prevent location change
+                event.preventDefault();
+
+                // Define object and gallery options
+                var $pswp = $('.pswp')[0],
+                    options = {
+                        index: $(this).parent('figure').index(),
+                        bgOpacity: 0.8,
+                        captionEl: false,
+                        tapToClose: true,
+                        shareEl: false,
+                        fullscreenEl: false,
+                    };
+
+                // Initialize PhotoSwipe
+                var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+                gallery.init();
+            });
+
+        }(jQuery));
+    </script>
+</body>
+
+</html>
