@@ -109,37 +109,25 @@
                             <div class="img-big-wrap">
 
                                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                    <a href="assets/images/product_3.svg" class="img_item" data-caption="Sea side, south shore<br><em class='text-muted '>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                                        <img src="assets/images/product_3.svg" itemprop="thumbnail" alt="Image description">
+                                    <a href="assets/images/product_3.svg" id="exp_img" class="exp_img" data-code="0" data-caption="Sea side, south shore<br><em class='text-muted '>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+                                        <img src="assets/images/product_3.svg" id="expandedImg" itemprop="thumbnail" alt="Image description">
                                     </a>
                                 </figure>
 
                             </div>
-                            <!-- slider-product.// -->
-                            <div class="img-small-wrap">
-                                <div class="item-gallery">
-                                    <figure id="1" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                        <a href="assets/images/product_1.svg" class="img_item" data-caption="Sea side, south shore<br><em class='text-muted '>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                                            <img src="assets/images/product_1.svg" itemprop="thumbnail" alt="Image description">
-                                        </a>
-                                    </figure>
+                            <div class="row justify-content-center">
+                                <div class="item-gallery imageZoom">
+                                    <img src="assets/images/product_1.svg" id="0" class="img_item" data-width="1200" data-caption="img" data-height="900" alt="Nature" onclick="procductImage(this);">
                                 </div>
-                                <div class="item-gallery">
-                                    <figure id="2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                        <a href="assets/images/product_2.svg" class="img_item" data-caption="Sea side, south shore<br><em class='text-muted '>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                                            <img src="assets/images/product_2.svg" itemprop="thumbnail" alt="Image description">
-                                        </a>
-                                    </figure>
+                                <div class="ml-2 mr-2 item-gallery imageZoom">
+                                    <img src="assets/images/product_2.svg" id="1" class="img_item" data-width="1200" data-height="900" data-caption="img" alt="Snow" onclick="procductImage(this);">
                                 </div>
-                                <div class="item-gallery">
-                                    <figure id="3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                        <a href="assets/images/product_4.svg" class="img_item" data-caption="Sea side, south shore<br><em class='text-muted '>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                                            <img src="assets/images/product_4.svg" itemprop="thumbnail" alt="Image description">
-                                        </a>
-                                    </figure>
+                                <div class="item-gallery imageZoom">
+                                    <img src="assets/images/product_4.svg" id="2" class="img_item" data-width="1200" data-height="900" data-caption="img" alt="Mountains" onclick="procductImage(this);">
                                 </div>
                             </div>
                         </article>
+
 
                         <!-- Some spacing  -->
                         <div class="spacer"></div>
@@ -305,26 +293,28 @@
             var container = [];
 
             // Loop over gallery items and push it to the array
-            $('#gallery').find('figure').each(function() {
+            $('#gallery').find('.imageZoom').each(function() {
                 var $link = $(this).find('.img_item'),
                     item = {
-                        src: $link.attr('href'),
+                        src: $link.attr('src'),
                         w: $link.data('width'),
                         h: $link.data('height'),
                         title: $link.data('caption')
                     };
                 container.push(item);
+                console.log(container);
             });
 
             // Define click event on gallery item
-            $('.img_item').click(function(event) {
+            $('.exp_img').click(function(event) {
                 // Prevent location change
+                alert(document.getElementById("exp_img").getAttribute('data-code'));
                 event.preventDefault();
 
                 // Define object and gallery options
                 var $pswp = $('.pswp')[0],
                     options = {
-                        index: $(this).parent('figure').attr('id'),
+                        index: parseInt(document.getElementById("exp_img").getAttribute('data-code')),
                         bgOpacity: 0.8,
                         captionEl: false,
                         tapToClose: true,
@@ -338,6 +328,14 @@
             });
 
         }(jQuery));
+
+        function procductImage(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+
+            expandImg.src = imgs.src;
+            document.getElementById('exp_img').setAttribute('data-code', imgs.id)
+
+        }
     </script>
 </body>
 
