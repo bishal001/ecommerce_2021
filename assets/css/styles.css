@@ -5,6 +5,16 @@ body {
 
 /*--------------------  Header Area -------------------*/
 
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
 .logo a {
     display: inline-block;
     max-width: 120px;
@@ -369,16 +379,6 @@ body {
 
 
 /* ---------------- Started Footer ------------------*/
-
-.logo {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    /* identical to box height */
-    text-align: center;
-    color: #000000;
-}
 
 
 /* ---------------- Ended Footer ------------------*/
