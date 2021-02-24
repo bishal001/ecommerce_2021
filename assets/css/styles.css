@@ -146,6 +146,12 @@ body {
 
 /* -------------------- Started Ulkit slider ------------------------  */
 
+canvas,
+.uk-slider-items img,
+video {
+    height: 450px !important;
+}
+
 .uk-dotnav>*>* {
     border: 1px solid;
     background: white !important;
